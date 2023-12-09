@@ -1,0 +1,1 @@
+# Golden-project_Detection-of-the-Parkinson-s-Disease
