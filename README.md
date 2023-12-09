@@ -1,12 +1,8 @@
 # Golden-project_Detection-of-the-Parkinson-s-Disease
 
-
-
 The dataset employed for this project is derived from Kaggle - https://www.kaggle.com/code/adityakadiwal/parkinsons-disease-detection/notebook. It encompasses details such as:
 
 The goal of a Parkinson's disease detection system is to create an accurate model for early diagnosis. Early detection enables timely intervention, personalized patient care, and supports research and drug development. It can reduce healthcare costs, enhance the quality of life for individuals with Parkinson's, and facilitate patient education. Ethical considerations, patient privacy, and collaboration between data scientists and healthcare professionals are essential in the development and deployment of such models.
-
-
 
 ## Methodology
 Obtain a comprehensive dataset containing relevant information for individuals, including features such as voice recordings, demographic details, and clinical attributes. Ensure that the dataset is diverse and representative of the population under consideration.
@@ -34,67 +30,6 @@ Create a dedicated Python function, e.g., parkinson_prep(dataframe), to streamli
 
 ## Models Training
 Train the selected model using the training dataset. Adjust hyperparameters as needed for optimal performance.
-
-
-```python
-# Parkinson's Disease Detection
-
-## Dataset
-The dataset used for this project is obtained from [Dataset Source] (replace with the actual source). It includes various features related to voice recordings, demographic information, and clinical details of individuals, with the target variable indicating the presence or absence of Parkinson's disease.
-
-## Methodology
-The dataset is divided into training and testing sets to ensure a thorough evaluation of the model's performance.
-
-## Data Cleaning
-Perform comprehensive data cleaning procedures, addressing missing values, outliers, or any anomalies in the dataset. The goal is to prepare a clean and reliable dataset for subsequent analysis.
-
-## Exploratory Data Analysis
-Utilize in-depth exploratory data analysis techniques to understand the distribution of Parkinson's and non-Parkinson's cases. Visualization tools can be used to identify patterns, correlations, and anomalies in key features.
-
-## Feature Engineering
-Implement feature engineering strategies to enhance the model's performance. This may involve creating new features, transforming existing ones, or extracting meaningful information to enrich the dataset.
-
-## Feature Scaling
-Apply feature scaling techniques, such as normalization, to ensure consistency and effectiveness in the modeling process.
-
-## Data Imbalance
-Address potential class imbalance issues using techniques like oversampling or undersampling to create a balanced representation of the target classes.
-
-## Preprocessing Function
-Create a dedicated Python function, e.g., `parkinson_prep(dataframe)`, to handle all preprocessing steps on the test data. This function should handle missing values and ensure consistency with the training set.
-
-## Models Training
-Utilize state-of-the-art machine learning models for classification tasks. Train and evaluate models based on factors such as accuracy, precision, recall, and F1-score.
-
-```python
-# Parkinson's Disease Detection
-
-## Dataset
-The dataset used for this project is obtained from [Dataset Source] (replace with the actual source). It includes various features related to voice recordings, demographic information, and clinical details of individuals, with the target variable indicating the presence or absence of Parkinson's disease.
-
-## Methodology
-The dataset is divided into training and testing sets to ensure a thorough evaluation of the model's performance.
-
-## Data Cleaning
-Perform comprehensive data cleaning procedures, addressing missing values, outliers, or any anomalies in the dataset. The goal is to prepare a clean and reliable dataset for subsequent analysis.
-
-## Exploratory Data Analysis
-Utilize in-depth exploratory data analysis techniques to understand the distribution of Parkinson's and non-Parkinson's cases. Visualization tools can be used to identify patterns, correlations, and anomalies in key features.
-
-## Feature Engineering
-Implement feature engineering strategies to enhance the model's performance. This may involve creating new features, transforming existing ones, or extracting meaningful information to enrich the dataset.
-
-## Feature Scaling
-Apply feature scaling techniques, such as normalization, to ensure consistency and effectiveness in the modeling process.
-
-## Data Imbalance
-Address potential class imbalance issues using techniques like oversampling or undersampling to create a balanced representation of the target classes.
-
-## Preprocessing Function
-Create a dedicated Python function, e.g., `parkinson_prep(dataframe)`, to handle all preprocessing steps on the test data. This function should handle missing values and ensure consistency with the training set.
-
-## Models Training
-Utilize state-of-the-art machine learning models for classification tasks. Train and evaluate models based on factors such as accuracy, precision, recall, and F1-score.
 
 ```python
 from sklearn.ensemble import RandomForestClassifier
